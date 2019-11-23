@@ -7,10 +7,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyProject.Models;
 
-namespace MyProject.Migrations
+namespace MyProjectApi.Migrations
 {
     [DbContext(typeof(MyProjectContext))]
-    [Migration("20191123185702_InitialCreate")]
+    [Migration("20191123194502_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

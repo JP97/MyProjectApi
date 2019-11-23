@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyProject.Models;
 
-namespace MyProject.Migrations
+namespace MyProjectApi.Migrations
 {
     [DbContext(typeof(MyProjectContext))]
     partial class MyProjectContextModelSnapshot : ModelSnapshot

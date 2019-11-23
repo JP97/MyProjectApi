@@ -36,7 +36,7 @@ namespace MyProject.Data
                 new Player{Name="babo"}
             };
 
-            context.AddRange(playersList);
+            //context.AddRange(playersList);
 
 
             for (int i = 0; i < 4; i++)
